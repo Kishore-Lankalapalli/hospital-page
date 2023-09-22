@@ -1,0 +1,121 @@
+.labs-menu-main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 900px) {
+  .labs-menu-main-container {
+    align-items: center;
+  }
+}
+.achievment-showcase-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 900px) {
+  .achievment-showcase-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+.achievment-container {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 900px) {
+  .achievment-container {
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+}
+.achievment-image {
+  height: 30px;
+  width: 30px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 900px) {
+  .achievment-image {
+    height: 50px;
+    width: 50px;
+  }
+}
+.achievment-heading {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #333333;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 900px) {
+  .achievment-heading {
+    font-size: 24px;
+  }
+}
+.motive-heading-text {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #333333;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 900px) {
+  .motive-heading-text {
+    font-size: 35px;
+  }
+}
+.expanding-text {
+  color: #008dd9;
+}
+.labs-achievment-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0px;
+}
+
+@media screen and (min-width: 900px) {
+  .labs-achievment-container {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
+.list-item {
+  width: 150px;
+  height: 80px;
+  background-color: #138ed1;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 900px) {
+  .list-item {
+    margin-right: 40px;
+  }
+}
+.count-text {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 0px;
+  font-weight: bold;
+}
+.labs-text {
+  font-size: 15px;
+  color: #fff;
+  margin-top: 5px;
+}
